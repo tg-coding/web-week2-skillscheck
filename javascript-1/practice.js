@@ -95,12 +95,14 @@ let me = {
 
 function bigOrSmall(arr){
 	let answers = [];
-	if (arr > 100) {
-		answers.push('big')
-	} else {
-		answers.push('small')
+	for (let i = 0; i < arr.length; i++) {
+		if (arr[i] > 100) {
+			answers.push('big')
+		} else {
+			answers.push('small')
+		}
 	}
-	return answers;
+	return answers
 }
 
 //////////////////PROBLEM 13////////////////////
@@ -167,10 +169,14 @@ const people = [
 	{ name: 'Josh', friend: true, awesomeLevel: 7 }
 ]
 
-let enemies = people.filter(people => people.friend = false)
+let enemies = people.filter(function(person){
+	return person.friend === false;
+});
 
 //////////////////PROBLEM 20////////////////////
 
 // Using the people array above, get a total of the awesomeLevel from all the people, and store that value in a variable named 'totallyAwesome'. Use .reduce().
 
-let totallyAwesome = 
+let totallyAwesome = people.reduce(function(acc, curr){
+	return acc + curr.awesomeLevel;
+}, 0); 
