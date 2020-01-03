@@ -1,0 +1,103 @@
+body{
+    font-family: sans-serif;
+}
+
+header{
+    top: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: #707070;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    z-index: 10;
+}
+
+#logo{
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0 10%;
+}
+
+nav{
+    font-size: 12px;
+    margin: 0 10%;
+    /* padding: 0 10px; */
+}
+
+a{
+    padding-left: 20px;
+}
+
+.hero{
+    height: 28vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+#hero-text{
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #e9e05f;
+}
+
+section{
+    margin: 30px auto;
+    width: 80%;
+}
+
+.box-row{
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rounded-box{
+    width: 180px;
+    border-radius: 15px;
+    background-color: #a4ffd7;
+}
+
+.rectangle-row{
+    margin: 30px 0;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rectangle{
+    width: 45%;
+    background-color: #ffc36c;
+}
+
+#text-box{
+    font-size: 9px;
+}
+
+.text-image-row{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#text-box{
+    width: 250px;
+    margin: auto 40px;
+}
+
+#img{
+     width: 225px;
+     margin: 0 60px;
+     background-image: url(https://images.squarespace-cdn.com/content/v1/5a6c95154c0dbf370364129d/1525874638740-UX9UKVIP4QMZPI4197SG/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Sunrise+elephants-3.jpg?format=1500w);
+     background-size: cover;
+ }
+
+ footer{
+    height: 80px;
+    background-color: #3a3a56;
+ }
+
