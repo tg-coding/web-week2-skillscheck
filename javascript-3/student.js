@@ -38,9 +38,9 @@ function removeItem(index){
 //Create a function called 'checkGroceryCount'. Inside of checkGroceryCount, you're going to check the total number of groceries in your groceries array using .length. Using an if/else statement, check if the number of groceries is greater than or equal to 5. If it is, return the string 'That looks like a big trip' from the function. If the number of groceries is equal to one, return the string '1 item'. If the amount of groceries is between 1 and 5, return the string 'NUMBEROFGROCERIES items' with NUMBEROFGROCERIES replaced by the number of items in your groceries array.
 
 function checkGroceryCount(){
-    if (groceries.length - 1 >= 5) {
+    if (groceries.length >= 5) {
         return 'That looks like a big trip';
-    } else if (groceries.length -1 === 1) {
+    } else if (groceries.length === 1) {
         return '1 item';
     } else {
         return `${groceries.length} items`
